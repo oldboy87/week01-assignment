@@ -1,20 +1,22 @@
-console.log("Hello world!");
+//-------- Was attempting to make a slower "scroll to top"
 
-let scrollCount = 0;
-let idSection = "#about";
+// console.log("Hello world!");
 
-const idArray = ["#about", "#automotive", "#maritime", "#aviation", "#space", "#home", "./404"];
+// let scrollCount = 0;
+// let idSection = "#about";
 
-function myFunction(){
-        console.log(idSection);
-        window.location.href = idSection;
-        idSection = idArray[scrollCount];
-        scrollCount = (scrollCount + 1);
+// const idArray = ["#about", "#automotive", "#maritime", "#aviation", "#space", "#home", "./404"];
 
-}
+// function myFunction(){
+//         console.log(idSection);
+//         window.location.href = idSection;
+//         idSection = idArray[scrollCount];
+//         scrollCount = (scrollCount + 1);
+
+// }
 
 
 
-clickBtn.addEventListener("click", function() {
-    setInterval(myFunction,100);
-})
+// clickBtn.addEventListener("click", function() {
+//     setInterval(myFunction,100);
+// })
